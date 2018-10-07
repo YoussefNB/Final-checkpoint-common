@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="Final%20checkpoint-css/final-checkpoint.css">
+
+  <!--MD-Bootstrap-->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">
+
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+
+  <!-- Argon CSS -->
+  <link type="text/css" href="./assets/css/argon.css?v=1.0.0" rel="stylesheet">
+  <!-- Docs CSS -->
+  <link type="text/css" href="./assets/css/docs.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container">
+      <a class="navbar-brand" href="#">Pharma-shit</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-success" aria-controls="navbar-success"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-success">
+        <div class="navbar-collapse-header">
+          <div class="row">
+            <div class="col-6 collapse-brand">
+              <a href="index.html">
+              </a>
+            </div>
+            <div class="col-6 collapse-close">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-success" aria-controls="navbar-success"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="features.html">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Account.html">Account</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbar-primary_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cart</a>
+            <!--<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbar-primary_dropdown_1">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>-->
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="jumbotron-fluid jumbo-header">
+    <div class="container features-jumbotron">
+      <div class="row jumbo-row">
+        <div class="col-md-4 jumbo-text">
+          <h1 class="display-4" style="font-size: 50px;">Our products</h1>
+          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid nothing-container mt-3">
+    <div class="row search-row">
+      <div class="col-md-1">
+        <span>Search by : </span>
+      </div>
+      <div class="col-md-3  y search-row">
+        <span>For </span>
+        <select class="form-control ml-3 selector" id="type-selector">
+          <option default>All</option>
+          <option>The digestive system</option>
+          <option>The cardiovascular system </option>
+          <option>The central nervous system </option>
+          <option>Pain</option>
+          <option>The ear, nose and oropharynx </option>
+          <option>The contraception </option>
+        </select>
+      </div>
+      <div class="col-md-2 y search-row">
+        <span>Price </span>
+        <select class="form-control ml-3 selector" id="price-selector">
+          <option default>All</option>
+          <option>High to low</option>
+          <option>Low to high</option>
+        </select>
+      </div>
+      <div class="col-md-2 y search-row">
+        <span>Time </span>
+        <select class="form-control ml-3 selector" id="opinions-selector">
+          <option default>All</option>
+          <option>Newest</option>
+          <option>Oldest</option>
+        </select>
+      </div>
+      <div class="col-md-3 y search-row">
+        <span>Popularity </span>
+        <select class="form-control ml-3 selector" id="opinions-selector">
+          <option default>All</option>
+          <option>Most popular</option>
+          <option>Most liked</option>
+          <option>Most Commented</option>
+        </select>
+      </div>
+      <button class="btn btn-1 btn-outline-success btn-sm" type="button">Search</button>
+    </div>
+  </div>
+
+
+  <div class="container g">
+    <div class="row row-grid mt-3">
+      <div class="col-lg-3 mt-product">
+        <div class="card card-lift--hover shadow border-0">
+          <div class="card-body py-5 tac">
+            <img src="Final checkpoint-res/Acebutolol.png" style="height: 175px;">
+            <h6 class="text-success text-uppercase digestive">Acebutolol</h6>
+            <p>XXXXdt</p>
+            <span class="badge badge-pill badge-success">4.5/5</span>
+            <div class="tac">
+              <a href="#" class="btn btn-success mt-4" data-toggle="modal" data-target="#modal-Acebutolol">Learn more</a>
+              <div class="modal fade" id="modal-Acebutolol" tabindex="-1" role="dialog" aria-labelledby="modal-Acebutolol" aria-hidden="true">
+                <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h6 class="modal-title" id="modal-title-default" style="font-weight: bold">ACEBUTOLOL</h6>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                      </button>
+                    </div>
+                    <div class="modal_body">
+                      <p>Acebutolol is a cardioselective beta blocker with ISA (intrinsic sympathomimetic activity; see article
+                        on pindolol). It is therefore more suitable than non cardioselective beta blockers, if a patient
+                        with asthma or chronic obstructive pulmonary disease (COPD) needs treatment with a beta blocker.
+                        (For these reasons, it may be a beta-blocker of choice in inclusion in Polypill strategies). In doses
+                        lower than 800mg daily its constricting effects on the bronchial system and smooth muscle vessels
+                        are only 10% to 30% of those observed under propranolol treatment, but there is experimental evidence
+                        that the cardioselective properties diminish at doses of 800mg/day or more. The drug has lipophilic
+                        properties, and therefore crosses the blood–brain barrier. Acebutolol has no negative impact on serum
+                        lipids (cholesterol and triglycerides). No HDL decrease has been observed. In this regard, it is
+                        unlike many other beta blockers which have this unfavourable property.</p>
+                    </div>
+                    <div>
+                      <span>Quantity : </span>
+                      <input type="text" placeholder="how many ?" class="input" />
+                    </div>
+                    <br>
+                    <div class="modal-footer">
+                      <button class="btn btn-1 btn-success" type="button">Add to cart</button>
+                      <button type="button" class="btn btn-link  ml-auto" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 mt-product">
+        <div class="card card-lift--hover shadow border-0">
+          <div class="card-body py-5 tac">
+            <img src="Final checkpoint-res/zocor.jpg" style="height: 175px;">
+            <h6 class="text-success text-uppercase cardiovascular">Generic Zocor</h6>
+            <p>XXXXdt</p>
+            <span class="badge badge-pill badge-success">3.5/5</span>
+            <div class="tac">
+              <a href="#" class="btn btn-success mt-4" data-toggle="modal" data-target="#modal-default">Learn more</a>
+              <div class="modal fade" id="modal-default" tabindex="-1" role="dialog" aria-labelledby="modal-default" aria-hidden="true">
+                <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h6 class="modal-title" id="modal-title-default" style="font-weight: bold">Generic Zocor</h6>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                      </button>
+                    </div>
+                    <div class="modal_body">
+                      <p>Simvastatin, marketed under the trade name Zocor among others, is a lipid-lowering medication. It is
+                        used along with exercise, diet, and weight loss to decrease elevated fat levels. It is also used
+                        to decrease the risk of heart problems in those at high risk. It is taken by mouth.</p>
+                    </div>
+                    <div>
+                      <span>Quantity : </span>
+                      <input type="text" placeholder="how many ?" class="input" />
+                    </div>
+                    <br>
+                    <div class="modal-footer">
+                      <button class="btn btn-1 btn-success" type="button">Add to cart</button>
+                      <button type="button" class="btn btn-link  ml-auto" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 mt-product">
+        <div class="card card-lift--hover shadow border-0">
+          <div class="card-body py-5 tac">
+            <img src="Final checkpoint-res/panadol.jpg" style="height: 175px;">
+            <h6 class="text-success text-uppercase pain">Panadol</h6>
+            <p>XXXXdt</p>
+            <span class="badge badge-pill badge-success">4.7/5</span>
+            <div class="tac">
+              <a href="#" class="btn btn-success mt-4" data-toggle="modal" data-target="#modal-Panadol">Learn more</a>
+              <div class="modal fade" id="modal-Panadol" tabindex="-1" role="dialog" aria-labelledby="modal-Panadol" aria-hidden="true">
+                <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h6 class="modal-title" id="modal-title-default" style="font-weight: bold">Panadol</h6>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                      </button>
+                    </div>
+                    <div class="modal_body">
+                      <p>Paracetamol, also known as acetaminophen or APAP, is a medicine used to treat pain and fever. It is
+                        typically used for mild to moderate pain relief.[1] Evidence for its use to relieve fever in children
+                        is mixed.It is often sold in combination with other medications, such as in many cold medications.
+                        In combination with opioid pain medication, paracetamol is also used for severe pain such as cancer
+                        pain and pain after surgery. It is typically used either by mouth or rectally but is also available
+                        intravenously. Effects last between two and four hours.</p>
+                    </div>
+                    <div>
+                      <span>Quantity : </span>
+                      <input type="text" placeholder="how many ?" class="input" />
+                    </div>
+                    <br>
+                    <div class="modal-footer">
+                      <button class="btn btn-1 btn-success" type="button">Add to cart</button>
+                      <button type="button" class="btn btn-link  ml-auto" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer font-small green darken-3 mt-3">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-12 py-2">
+          <div class="mb-5 flex-center">
+
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x icn"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x icn"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x icn"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x icn"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x icn"> </i>
+            </a>
+            <!--Pinterest-->
+            <a class="pin-ic">
+              <i class="fa fa-pinterest fa-lg white-text fa-2x icn"> </i>
+            </a>
+          </div>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="#">CopyrightLink</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+
+  <!--MD-Bootstrap-JS-->
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+    crossorigin="anonymous"></script>
+
+  <!-- Optional JS -->
+  <script src="./assets/vendor/onscreen/onscreen.min.js"></script>
+  <script src="./assets/vendor/nouislider/js/nouislider.min.js"></script>
+  <script src="./assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+  <!-- Argon JS -->
+  <script src="./assets/js/argon.js?v=1.0.0"></script>
+</body>
+
+</html>

@@ -1,9 +1,14 @@
 .center {
     text-align: center;
     height: auto;
-    background : url("../Final checkpoint-res/mac.jpeg") ;
+    background : url("../Final checkpoint-res/ONLINE-PHARMACY-BUSINESS-AND-REVIEWS.jpg") ;
     background-size: cover;
     /*filter: blur(5px);*/
+}
+.features-jumbotron {
+    height: 400px;
+    text-align: center;
+    color:white;
 }
 .name-brand {
     font-weight: 500;
@@ -16,7 +21,7 @@
     font-weight: 400;
 }
 .text-btn {
-    color: white !important;
+    color: black !important;
     /*font-weight: 450 !important;*/
 }
 .card-border {
@@ -29,7 +34,7 @@
 }
 .card-button:hover {
     background-color: white !important;
-    color:blue !important;
+    color:green !important;
 }
 .card-text {
     font-weight: 300;
@@ -48,5 +53,104 @@
 }
 .title-fluid {
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
+}
+.jumbo-text {
+    margin-top: 90px;
+    color:black;
+    border:1px solid grey;
+    padding-right:20px;
+}
+.jumbo-row {
+    justify-content: center;
+}
+.jumbo-header {
+    background: url("../Final checkpoint-res/workspace.jpg");
+    background-size: cover;
+    /*max-width:auto;
+    height:auto;*/
+}
+.nothing-container {
+    margin-top: 10px;
+    text-align: center;
+}
+.partners-row {
+    display: flex;
+    flex-direction: row;
+}
+.x {
+    flex-direction: column;
+    flex:1;
+    text-align: center;
+}
+.group-name {
+    font-weight: 500;
+}
+.y {
+    display: flex;
+    flex-direction: row;
+}
+.search-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tac {
+    text-align: center;
+}
+.mt-product {
+    margin-top:20px;
+}
+.input {
+    width: 250px;
+}
+.modal_body {
+    padding:20px;
+    text-align: justify;
+}
+/*.icn {
+    padding : 20px;
+    background-color:white;
+}*/
+.account-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: limegreen;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+.profile-container {
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+}
+.picture-div {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-name {
+    font-weight: lighter;
+}
+.profile-informations {
+    border:1px solid black;
+    height: 50%;
+    /*padding-left:50px;*/  
+}
+.info {
+    display:flex;
+    flex-direction: row;
+    border:1px solid pink;
+    align-content: center;
+    margin-top: 10px;
+}
+.info-data {
+    margin-left: 10px;
+}
+.buttons {
+    text-align: center;
 }
